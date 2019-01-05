@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Food } from '../food';
+import { FOOD } from '../food-list';
 
 @Component({
   selector: 'app-food',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./food.component.css']
 })
 export class FoodComponent implements OnInit {
+
+  foods = FOOD;
 
   constructor() { }
 

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Place } from '../place';
+import { PLACES } from '../places-list';
 
 @Component({
   selector: 'app-places',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./places.component.css']
 })
 export class PlacesComponent implements OnInit {
+
+  places = PLACES;
 
   constructor() { }
 
