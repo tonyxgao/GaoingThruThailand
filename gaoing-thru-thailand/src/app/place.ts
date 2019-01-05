@@ -3,4 +3,5 @@ export class Place {
     name: string;
     review: string;
     date: string;
+    image: string;
 }

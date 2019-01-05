@@ -3,4 +3,5 @@ export class Food {
     name: string;
     review: string;
     date: string;
+    image: string;
 }
