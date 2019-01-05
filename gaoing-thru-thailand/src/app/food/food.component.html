@@ -1,7 +1,9 @@
-<h2>What We Ate</h2>
+<h2>Food We Ate</h2>
 <ul class="foods">
   <li *ngFor="let food of foods">
-    <span>{{food.id}}</span> Name: {{food.name}}, Review: {{food.review}}, Date: {{food.date}}, Image: <img src= "{{food.image}}">
+    <img src= "{{food.image}}">
+    <p>{{food.name}} | {{food.date}}</p>
+    <p>{{food.review}}</p>
   </li>
 </ul>
  

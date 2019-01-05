@@ -1,4 +1,8 @@
 img {
-    height: 400px;
+    height: 450px;
     width: relative;
+}
+
+h4, p {
+    margin: 50px 250px;
 }

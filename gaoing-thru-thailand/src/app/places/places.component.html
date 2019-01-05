@@ -1,7 +1,9 @@
-<h2>Where We Went</h2>
-<ul class="foods">
+<h2>Places We Went</h2>
+<ul class="places">
   <li *ngFor="let place of places">
-    <span>{{place.id}}</span> Name: {{place.name}}, Review: {{place.review}}, Date: {{place.date}}, Image: <img src= "{{place.image}}">
+    <img src= "{{place.image}}">
+    <p>{{place.name}} | {{place.date}}</p>
+    <p>{{place.review}}</p>
   </li>
 </ul>
  
