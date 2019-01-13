@@ -1,0 +1,47 @@
+header {
+    padding-top: 1rem;
+    background: #B7CECE;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Staatliches', cursive;
+    color: #1C0F13;
+    margin: 2rem 0 0 0;
+}
+
+header h3 {
+    font-style: italic;
+    font-family: 'Thasadith', sans-serif;
+    color: #1C0F13;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+nav {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav a {
+    font-family: 'Thasadith', sans-serif;
+    letter-spacing: .1em;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: black;
+    bottom: 0px;
+    /* animation-name: raise;
+    animation-duration: .5s; */
+}
+
+nav a:hover {
+    color: white;
+    transition: .5s;
+}
+
+/* @keyframes raise {
+    from {bottom: 0px;}
+    to {bottom: 10px;}
+} */
