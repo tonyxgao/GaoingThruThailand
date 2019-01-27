@@ -5,5 +5,16 @@ img {
 }
 
 p {
-    margin: 0px 200px;
+    margin: 0px 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid black;
+    margin: 10px auto;
+    width: 66vw;
+    padding-bottom: 20px;
 }
