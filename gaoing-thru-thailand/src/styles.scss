@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+$black: #1c0f13;
+$melon: #b7cece;
+$dark-grey: #444554;
+$light-purple: #d1c8e1;
+$rolling-stone: #648381;
+$off-white: #E2E2E2;
+
 * {
     box-sizing: border-box;
 }
@@ -7,7 +15,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background: #E2E2E2;
+    background: $off-white;
 }
 
 .body {
@@ -33,7 +41,7 @@ h2 {
     font-weight: 900;
     font-size: 2rem;
     letter-spacing: .1rem;
-    color: #444554;
+    color: $dark-grey;
     text-transform: uppercase;
     text-shadow: 2px 2px 1px white;
 }
