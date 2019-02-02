@@ -1,9 +1,13 @@
-<h2>Food We Ate</h2>
-<ul class="foods">
-  <li *ngFor="let food of foods">
-    <img src= "{{food.image}}">
-    <h3>{{food.name}} | {{food.date}}</h3>
-    <p>{{food.review}}</p>
-  </li>
-</ul>
+<div class="body">
+  <h2>Food We Ate</h2>
+  <ul class="foods">
+    <li *ngFor="let food of foods">
+      <img src= "{{food.image}}">
+      <h3>{{food.name}} | {{food.date}}</h3>
+      <p>{{food.review}}</p>
+      <hr>
+    </li>
+  </ul>
+</div>
+
  

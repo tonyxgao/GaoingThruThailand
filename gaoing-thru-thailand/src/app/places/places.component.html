@@ -1,9 +1,11 @@
-<h2>Places We Went</h2>
-<ul class="places">
-  <li *ngFor="let place of places">
-    <img src= "{{place.image}}">
-    <h3>{{place.name}} | {{place.date}}</h3>
-    <p>{{place.review}}</p>
-  </li>
-</ul>
- 
+<div class="body">
+  <h2>Places We Went</h2>
+  <ul class="places">
+    <li *ngFor="let place of places">
+      <img src="{{place.image}}">
+      <h3>{{place.name}} | {{place.date}}</h3>
+      <p>{{place.review}}</p>
+      <hr>
+    </li>
+  </ul>
+</div>
