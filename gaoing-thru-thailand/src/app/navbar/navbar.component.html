@@ -4,7 +4,19 @@
 <nav>
   <a routerLink="/">Home</a>
   <a routerLink="/about">About</a>
-  <a routerLink="/food">Food</a>
-  <a routerLink="/places">Places</a>
+  <div class="dropdown">
+    <button class="dropbtn">Cities
+    </button>
+    <div class="dropdown-content">
+      <a routerLink="/bangkok">Bangkok</a>
+      <a routerLink="/phuket">Phuket</a>
+      <a routerLink="/krabi">Krabi</a>
+      <a routerLink="/dmv">DC / Virginia</a>
+      <a routerLink="/nyc">New York City</a>
+      <a routerLink="/san-fran">San Francisco</a>
+    </div>
+  </div>
+
+  <a routerLink="/places">Random Stuff</a>
 </nav>
 </header>
