@@ -5,7 +5,7 @@ import { FOOD } from '../food-list';
 @Component({
   selector: 'app-food',
   templateUrl: './food.component.html',
-  styleUrls: ['./food.component.css']
+  styleUrls: ['./food.component.scss']
 })
 export class FoodComponent implements OnInit {
 
